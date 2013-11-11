@@ -1,0 +1,13 @@
+name: clean
+version: 0.1.0
+author: Samuel Hapak <samuel.hapak@vacuumlabs.com>
+description: Metapackage containing clean.dart framework.
+environment:
+  sdk: '>=0.8.10+6 <2.0.0'
+dependencies:
+  clean_ajax:
+    git: https://github.com/hleumas/clean_ajax
+  clean_data:
+    git: https://github.com/hleumas/clean_data
+  clean_sync:
+    git: https://github.com/hleumas/clean_sync
